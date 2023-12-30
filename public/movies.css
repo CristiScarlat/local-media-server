@@ -1,0 +1,24 @@
+input[type="text"], input[type="number"]{
+    min-width: 250px;
+    border-radius: 4px;
+}
+
+.movies-upload-video-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    width: fit-content;
+    padding: 1rem 0;
+}
+
+.movies-upload-video-form label {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.movies-upload-video-form textarea {
+    resize: none;
+    min-width: 250px;
+    border-radius: 4px;
+}

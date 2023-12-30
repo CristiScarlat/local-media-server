@@ -1,0 +1,17 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding: 0.5rem;
+    background: linear-gradient(135deg, rgba(32,32,32,1) 50%, rgba(59,59,59,1) 97%);
+    flex: 1;
+}
+
+.subheader {
+    background-color: rgba(33,4,13,0.39);
+    z-index: 1;
+    box-shadow: 2px 1px 2px 3px #4c4748;
+}
